@@ -7,10 +7,10 @@ function loadXMLDoc(dname) {
 
     if (window.XMLHttpRequest) {
 
-        xhttp = new XMLHttpRequest();
+         xhttp = new XMLHttpRequest();
     } else {
 
-        xhttp = new ActiveXObject("Microsoft.XMLHTTP");
+         xhttp = new ActiveXObject("Microsoft.XMLHTTP");
     }
 
     xhttp.open("GET", dname, false);
@@ -23,27 +23,25 @@ function displayResult(source, styledoc) {
 
     'use strict';
 
-    let xml;
-    let xsl;
-    let ex;
-    let resultDocument;
-
-    xml = loadXMLDoc(source);
-    xsl = loadXMLDoc(styledoc);
+    let XSLTProcessor;
+    const xml = loadXMLDoc(source);
+    const xsl = loadXMLDoc(styledoc);
+    const response = document.getElementById("response");
 
     // code for IE
     if (window.ActiveXObject) {
 
-        ex = xml.transformNode(xsl);
-        document.getElementById("response").innerHTML = ex;
+        const ex = xml.transformNode(xsl);
+        response.innerHTML = ex;
     }
     // code for Mozilla, Firefox, Opera, etc.
     else if (document.implementation && document.implementation.createDocument) {
 
         const xsltProcessor = new XSLTProcessor();
         xsltProcessor.importStylesheet(xsl);
-        resultDocument = xsltProcessor.transformToFragment(xml, document);
-        document.getElementById("response").appendChild(resultDocument);
+
+        const resultDocument = xsltProcessor.transformToFragment(xml, document);
+        response.appendChild(resultDocument);
     }
 }
 
