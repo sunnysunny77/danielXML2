@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="studioone">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="stocksong">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="album" />
+              <xs:element name="artist" />
+              <xs:element name="country" />
+              <xs:element name="company" />
+              <xs:element name="song" />
+              <xs:element name="media" />
+              <xs:element name="price" />
+              <xs:element name="year" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
