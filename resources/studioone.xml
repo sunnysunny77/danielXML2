@@ -4,203 +4,203 @@
 <?xml-stylesheet type="text/xsl" href="studioone.xsl"?>
 <studioone xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="studioone.xsd">
     <stocksong>
-        <album>aa</album>
-        <artist></artist>
-        <country></country>
-        <company></company>
-        <song></song>
-        <media></media>
-        <price></price>
-        <year></year>
+        <album>The Commitments</album>
+        <artist>Andrew Strong</artist>
+        <country>America</country>
+        <company>Sony</company>
+        <song>Try a Little Tenderness</song>
+        <media>CD</media>
+        <price>3</price>
+        <year>2004</year>
     </stocksong>
     <stocksong>
-        <album></album>
-        <artist></artist>
-        <country></country>
-        <company></company>
-        <song></song>
-        <media></media>
-        <price></price>
-        <year></year>
+        <album>The Singles</album>
+        <artist>Basement Jaxx</artist>
+        <country>New Zealand</country>
+        <company>Kiwi Fruit</company>
+        <song>Oh My Gosh</song>
+        <media>mp3</media>
+        <price>10</price>
+        <year>2000</year>
     </stocksong>
     <stocksong>
-        <album></album>
-        <artist></artist>
-        <country></country>
-        <company></company>
-        <song></song>
-        <media></media>
-        <price></price>
-        <year></year>
+        <album>Greatest Hits</album>
+        <artist>Bob Marley</artist>
+        <country>Jamaica</country>
+        <company>Rhasta</company>
+        <song>Zion Trian</song>
+        <media>mp3</media>
+        <price>8.30</price>
+        <year>1999</year>
     </stocksong>
     <stocksong>
-        <album></album>
-        <artist></artist>
-        <country></country>
-        <company></company>
-        <song></song>
-        <media></media>
-        <price></price>
-        <year></year>
+        <album>The Eminem Show</album>
+        <artist>Eminem</artist>
+        <country>America</country>
+        <company>Dr Dre</company>
+        <song>Sing For The Moment</song>
+        <media>CD</media>
+        <price>9.43</price>
+        <year>2001</year>
     </stocksong>
     <stocksong>
-        <album></album>
-        <artist></artist>
-        <country></country>
-        <company></company>
-        <song></song>
-        <media></media>
-        <price></price>
-        <year></year>
+        <album>Black Fingernails, Red Wine</album>
+        <artist>Eskimo Joe</artist>
+        <country>Australia</country>
+        <company>Southern Cross</company>
+        <song>London Bombs</song>
+        <media>mp3</media>
+        <price>4</price>
+        <year>2010</year>
     </stocksong>
     <stocksong>
-        <album></album>
-        <artist></artist>
-        <country></country>
-        <company></company>
-        <song></song>
-        <media></media>
-        <price></price>
-        <year></year>
+        <album>Palookaville</album>
+        <artist>Fatboy Slim</artist>
+        <country>Denmark</country>
+        <company>Sony</company>
+        <song>The Journey</song>
+        <media>mp3</media>
+        <price>6</price>
+        <year>1997</year>
     </stocksong>
     <stocksong>
-        <album></album>
-        <artist></artist>
-        <country></country>
-        <company></company>
-        <song></song>
-        <media></media>
-        <price></price>
-        <year></year>
+        <album>One by One</album>
+        <artist>Foo Fighters</artist>
+        <country>America</country>
+        <company>Rockers</company>
+        <song>Learn to Fly</song>
+        <media>CD</media>
+        <price>5</price>
+        <year>1994</year>
     </stocksong>
     <stocksong>
-        <album></album>
-        <artist></artist>
-        <country></country>
-        <company></company>
-        <song></song>
-        <media></media>
-        <price></price>
-        <year></year>
+        <album>Sect</album>
+        <artist>Golden Features</artist>
+        <country>Australia</country>
+        <company>Indi Time</company>
+        <song>Always</song>
+        <media>CD</media>
+        <price>2</price>
+        <year>2007</year>
     </stocksong>
     <stocksong>
-        <album></album>
-        <artist></artist>
-        <country></country>
-        <company></company>
-        <song></song>
-        <media></media>
-        <price></price>
-        <year></year>
+        <album>State Of The Art</album>
+        <artist>Hilltop Hoods</artist>
+        <country>Australia</country>
+        <company>Hipedy</company>
+        <song>Fifty In Five</song>
+        <media>mp3</media>
+        <price>8</price>
+        <year>2002</year>
     </stocksong>
     <stocksong>
-        <album></album>
-        <artist></artist>
-        <country></country>
-        <company></company>
-        <song></song>
-        <media></media>
-        <price></price>
-        <year></year>
+        <album>Meteora</album>
+        <artist>Linkin Park</artist>
+        <country>America</country>
+        <company>Sony</company>
+        <song>Somewhere I Belong</song>
+        <media>CD</media>
+        <price>11.6</price>
+        <year>2001</year>
     </stocksong>
     <stocksong>
-        <album></album>
-        <artist></artist>
-        <country></country>
-        <company></company>
-        <song></song>
-        <media></media>
-        <price></price>
-        <year></year>
+        <album>Metalica</album>
+        <artist>Metalica</artist>
+        <country>America</country>
+        <company>Trax</company>
+        <song>Master of Puppets</song>
+        <media>CD</media>
+        <price>3.4</price>
+        <year>1994</year>
     </stocksong>
     <stocksong>
-        <album></album>
-        <artist></artist>
-        <country></country>
-        <company></company>
-        <song></song>
-        <media></media>
-        <price></price>
-        <year></year>
+        <album>Everything Is Forgotten</album>
+        <artist>Methyl Ethel</artist>
+        <country>Australia</country>
+        <company>Sony</company>
+        <song>Ubu</song>
+        <media>mp3</media>
+        <price>4.6</price>
+        <year>2017</year>
     </stocksong>
     <stocksong>
-        <album></album>
-        <artist></artist>
-        <country></country>
-        <company></company>
-        <song></song>
-        <media></media>
-        <price></price>
-        <year></year>
+        <album>Absolution</album>
+        <artist>Muse</artist>
+        <country>America</country>
+        <company>New Age</company>
+        <song>Hysteria</song>
+        <media>mp3</media>
+        <price>2</price>
+        <year>2000</year>
     </stocksong>
     <stocksong>
-        <album></album>
-        <artist></artist>
-        <country></country>
-        <company></company>
-        <song></song>
-        <media></media>
-        <price></price>
-        <year></year>
+        <album>In utero</album>
+        <artist>Nirvana</artist>
+        <country>America</country>
+        <company>Mystery</company>
+        <song>Very Ape</song>
+        <media>CD</media>
+        <price>7</price>
+        <year>1989</year>
     </stocksong>
     <stocksong>
-        <album></album>
-        <artist></artist>
-        <country></country>
-        <company></company>
-        <song></song>
-        <media></media>
-        <price></price>
-        <year></year>
+        <album>The Bends</album>
+        <artist>Radiahead</artist>
+        <country>United Kingdom</country>
+        <company>Tea Pots</company>
+        <song>Just</song>
+        <media>mp3</media>
+        <price>13</price>
+        <year>2006</year>
     </stocksong>
     <stocksong>
-        <album></album>
-        <artist></artist>
-        <country></country>
-        <company></company>
-        <song></song>
-        <media></media>
-        <price></price>
-        <year></year>
+        <album>10,000 Days</album>
+        <artist>Tool</artist>
+        <country>America</country>
+        <company>Alone</company>
+        <song>The Pot</song>
+        <media>mp3</media>
+        <price>3.67</price>
+        <year>2005</year>
     </stocksong>
     <stocksong>
-        <album></album>
-        <artist></artist>
-        <country></country>
-        <company></company>
-        <song></song>
-        <media></media>
-        <price></price>
-        <year></year>
+        <album>Shut Your Mouth</album>
+        <artist>Frenzal Rhomb</artist>
+        <country>Austrlia</country>
+        <company>Roo</company>
+        <song>Cheer Up</song>
+        <media>CD</media>
+        <price>6.4</price>
+        <year>1995</year>
     </stocksong>
     <stocksong>
-        <album></album>
-        <artist></artist>
-        <country></country>
-        <company></company>
-        <song></song>
-        <media></media>
-        <price></price>
-        <year></year>
+        <album>Joanne</album>
+        <artist>Lady Gaga</artist>
+        <country>America</country>
+        <company>Bad Hat</company>
+        <song>Perfect Illusion</song>
+        <media>mp3</media>
+        <price>8.4</price>
+        <year>2003</year>
     </stocksong>
     <stocksong>
-        <album></album>
-        <artist></artist>
-        <country></country>
-        <company></company>
-        <song></song>
-        <media></media>
-        <price></price>
-        <year></year>
+        <album>Undertow</album>
+        <artist>Tool</artist>
+        <country>America</country>
+        <company>Alone</company>
+        <song>Sober</song>
+        <media>mp3</media>
+        <price>9.6</price>
+        <year>1989</year>
     </stocksong>
     <stocksong>
-        <album></album>
-        <artist></artist>
-        <country></country>
-        <company></company>
-        <song></song>
-        <media></media>
-        <price></price>
-        <year></year>
+        <album>Time Out Of Mind</album>
+        <artist>Bob Dylan</artist>
+        <country>America</country>
+        <company>We Old</company>
+        <song>Highlands</song>
+        <media>CD</media>
+        <price>2</price>
+        <year>1979</year>
     </stocksong>
 </studioone>
