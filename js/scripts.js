@@ -36,7 +36,7 @@ function displayResult(source, styledoc) {
     // code for Mozilla, Firefox, Opera, etc.
     else if (document.implementation && document.implementation.createDocument) {
         
-        const xsltProcessor = new XSLTProcessor();
+        let xsltProcessor = new XSLTProcessor();
         xsltProcessor.importStylesheet(xsl);
 
         const resultDocument = xsltProcessor.transformToFragment(xml, document);
