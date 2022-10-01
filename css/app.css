@@ -1,6 +1,61 @@
 @charset "utf-8";
 /* css */  
 
+body {
+    margin: 0;
+    font-family: Verdana, sans-serif;
+    position: relative;
+}
+
+#hide {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    display: inline-block;
+    position: absolute;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 999;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 10px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: darkslategray;
+}
+
+nav ul a h1 {
+    font-size: inherit;
+    margin: 0;
+}
+
+main {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 main ul {
     margin: 0 auto;
     padding: 0;
@@ -29,6 +84,39 @@ main ul li ul li {
     padding: 10px 0;
 }
 
+footer {
+    background-color: black;
+    font-size: smaller;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+footer ul li {
+    display: inline-block;
+
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+footer ul li a:hover,
+footer ul li a:focus,
+nav ul li a:hover,
+nav ul li a:focus {
+    color: gold;
+}
 
 /* Breaks */  
 @media only Screen and (max-width: 992px) {
