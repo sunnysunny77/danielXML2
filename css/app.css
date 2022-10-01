@@ -32,6 +32,7 @@ body {
     background-size: 30%;
     background-position: top right;
     background-repeat: no-repeat;
+    filter: grayscale(75%);
 }
 
 nav {
@@ -159,6 +160,6 @@ nav ul li a:focus {
 @media only Screen and (max-width: 993px) {
 
     #header div {
-        padding: calc(50% - 50px) calc(25% - 25px) 0 calc(25% - 25px);
+        padding: calc(75% - 50px) calc(37.5% - 25px) 0 calc(37.5% - 25px);
     }
 }
