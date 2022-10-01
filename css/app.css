@@ -160,6 +160,5 @@ nav ul li a:focus {
 @media only Screen and (max-width: 993px) {
 
     #header div {
-        padding: calc(75% - 50px) calc(37.5% - 25px) 0 calc(37.5% - 25px);
-    }
+        background-size: 75%;   }
 }
