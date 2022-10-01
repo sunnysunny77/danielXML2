@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
-<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:element name="studioone">
+    <xs:annotation>
+      <xs:documentation> Linking the xsl file for transforming </xs:documentation>
+    </xs:annotation>
     <xs:complexType>
       <xs:sequence>
-        <xs:element maxOccurs="unbounded" name="stocksong">
+        <xs:element name="stocksong" maxOccurs="unbounded" minOccurs="0">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="album" />
-              <xs:element name="artist" />
-              <xs:element name="country" />
-              <xs:element name="company" />
-              <xs:element name="song" />
-              <xs:element name="media" />
-              <xs:element name="price" />
-              <xs:element name="year" />
+              <xs:element type="xs:string" name="album"/>
+              <xs:element type="xs:string" name="artist"/>
+              <xs:element type="xs:string" name="country"/>
+              <xs:element type="xs:string" name="company"/>
+              <xs:element type="xs:string" name="song"/>
+              <xs:element type="xs:string" name="media"/>
+              <xs:element type="xs:float" name="price"/>
+              <xs:element type="xs:short" name="year"/>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
