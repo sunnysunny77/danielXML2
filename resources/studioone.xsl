@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+
 <!-- xsl template for studioone -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
@@ -13,8 +14,10 @@
 
                     <li>
 
-                        <a target="_blank" href="./images/holder.jpg" ><img src="./images/holder.jpg" alt="image{position()}"/></a>
-            
+                        <a target="_blank" href="./images/holder.jpg">
+                            <img src="./images/holder.jpg" alt="image{position()}" />
+                        </a>
+
                     </li>
 
                     <li>
@@ -74,7 +77,10 @@
 
                                 <b>Price:</b>
                                 &#160;
-                                <span style="color: green;"> $<xsl:value-of select="price" /> </span>
+                                <span style="color: green;">
+                                    $
+                                    <xsl:value-of select="price" />
+                                </span>
 
                             </xsl:when>
 
@@ -82,7 +88,10 @@
 
                                 <b>Price:</b>
                                 &#160;
-                                <span style="color: blue;"> $<xsl:value-of select="price" /> </span>
+                                <span style="color: blue;">
+                                    $
+                                    <xsl:value-of select="price" />
+                                </span>
 
                             </xsl:when>
 
@@ -90,7 +99,8 @@
 
                                 <b>Price:</b>
                                 &#160;
-                                $<xsl:value-of select="price" />
+                                $
+                                <xsl:value-of select="price" />
 
                             </xsl:otherwise>
 
