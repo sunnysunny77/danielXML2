@@ -3,64 +3,109 @@
 <!-- xsl template for studioone -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-    <xsl:template match="stocksong">
+    <xsl:template match="/">
 
-        <li>
+        <xsl:for-each select="studioone/stocksong">
 
-            <ul>
+            <li>
 
-                <li>
+                <ul>
 
-                    <b>Album:</b>&#160;<xsl:value-of select="album"/>
+                    <li>
 
-                </li>
+                        <b>Album:</b>
+                        &#160;
+                        <xsl:value-of select="album" />
 
-                <li>
+                    </li>
 
-                    <b>Artist:</b>&#160;<xsl:value-of select="artist"/>
+                    <li>
 
-                </li>
+                        <b>Artist:</b>
+                        &#160;
+                        <xsl:value-of select="artist" />
 
-                <li>
+                    </li>
 
-                    <b>Country:</b>&#160;<xsl:value-of select="country"/>
+                    <li>
 
-                </li>
+                        <b>Country:</b>
+                        &#160;
+                        <xsl:value-of select="country" />
 
-                <li>
+                    </li>
 
-                    <b>Company:</b>&#160;<xsl:value-of select="company"/>
+                    <li>
 
-                </li>
+                        <b>Company:</b>
+                        &#160;
+                        <xsl:value-of select="company" />
 
-                <li>
+                    </li>
 
-                    <b>Song:</b>&#160;<xsl:value-of select="song"/>
+                    <li>
 
-                </li>
+                        <b>Song:</b>
+                        &#160;
+                        <xsl:value-of select="song" />
 
-                <li>
+                    </li>
 
-                    <b>Media:</b>&#160;<xsl:value-of select="media"/>
+                    <li>
 
-                </li>
+                        <b>Media:</b>
+                        &#160;
+                        <xsl:value-of select="media" />
 
-                <li>
+                    </li>
 
-                    <b>Price:</b>&#160;<xsl:value-of select="price"/>
 
-                </li>
+                    <li>
 
-                <li>
+                        <xsl:choose>
 
-                    <b>Year:</b>&#160;<xsl:value-of select="year"/>
+                            <xsl:when test="price &gt; 10">
 
-                </li>
-                
+                                <b>Price:</b>
+                                &#160;
+                                <span style="color: green;"> $<xsl:value-of select="price" /> </span>
 
-            </ul>
+                            </xsl:when>
 
-        </li>
+                            <xsl:when test="price &gt; 9">
+
+                                <b>Price:</b>
+                                &#160;
+                                <span style="color: blue;"> $<xsl:value-of select="price" /> </span>
+
+                            </xsl:when>
+
+                            <xsl:otherwise>
+
+                                <b>Price:</b>
+                                &#160;
+                                $<xsl:value-of select="price" />
+
+                            </xsl:otherwise>
+
+                        </xsl:choose>
+
+                    </li>
+
+                    <li>
+
+                        <b>Year:</b>
+                        &#160;
+                        <xsl:value-of select="year" />
+
+                    </li>
+
+
+                </ul>
+
+            </li>
+
+        </xsl:for-each>
 
     </xsl:template>
 
