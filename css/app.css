@@ -1,5 +1,5 @@
 @charset "utf-8";
-/* css */  
+/* css */
 
 body {
     margin: 0;
@@ -160,5 +160,6 @@ nav ul li a:focus {
 @media only Screen and (max-width: 993px) {
 
     #header div {
-        background-size: 75%;   }
+        background-size: 75%;
+    }
 }
