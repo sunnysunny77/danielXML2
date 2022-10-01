@@ -13,6 +13,12 @@
 
                     <li>
 
+                        <a target="_blank" href="./images/holder.jpg" ><img src="./images/holder.jpg" alt="image{position()}"/></a>
+            
+                    </li>
+
+                    <li>
+
                         <b>Album:</b>
                         &#160;
                         <xsl:value-of select="album" />

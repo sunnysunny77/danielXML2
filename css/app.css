@@ -84,6 +84,24 @@ main ul li ul li {
     padding: 10px 0;
 }
 
+main ul li ul li a {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+main ul li ul li a img {
+    width: 100%;
+}
+
+main ul li ul li a img:hover,
+main ul li ul li a img:focus {
+    transform: scale(1.05);
+    opacity: 0.75;
+    transition: transform 1s linear, opacity 1s linear;
+}
+
 footer {
     background-color: black;
     font-size: smaller;
