@@ -76,6 +76,10 @@ main {
     min-height: 100vh;
 }
 
+main h2 {
+    text-align: center;
+}
+
 main ul {
     margin: 0 auto;
     padding: 0;
