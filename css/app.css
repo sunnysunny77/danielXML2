@@ -15,6 +15,25 @@ body {
     position: absolute;
 }
 
+#header {
+    padding: 30% 0 0 0;
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    position: relative;
+    filter: grayscale(75%);
+}
+
+#header div {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    padding: calc(30% - 50px) calc(15% - 25px)0 calc(15% - 25px);
+    background-image: url(../images/cd.svg);
+    background-size: 30%;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
 nav {
     position: sticky;
     top: 0;
@@ -136,7 +155,10 @@ nav ul li a:focus {
     color: gold;
 }
 
-/* Breaks */  
-@media only Screen and (max-width: 992px) {
-   
+/* Breaks */
+@media only Screen and (max-width: 993px) {
+
+    #header div {
+        padding: calc(50% - 50px) calc(25% - 25px) 0 calc(25% - 25px);
+    }
 }
