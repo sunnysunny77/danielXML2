@@ -71,37 +71,24 @@
 
                     <li>
 
+                        <b>Price:</b>
+                        &#160;
                         <xsl:choose>
 
                             <xsl:when test="price &gt; 10">
-
-                                <b>Price:</b>
-                                &#160;
                                 <span style="color: green;">
-                                    $
-                                    <xsl:value-of select="price" />
+                                    $<xsl:value-of select="price" />
                                 </span>
-
                             </xsl:when>
 
                             <xsl:when test="price &gt; 9">
-
-                                <b>Price:</b>
-                                &#160;
                                 <span style="color: blue;">
-                                    $
-                                    <xsl:value-of select="price" />
+                                    $<xsl:value-of select="price" />
                                 </span>
-
                             </xsl:when>
 
                             <xsl:otherwise>
-
-                                <b>Price:</b>
-                                &#160;
-                                $
-                                <xsl:value-of select="price" />
-
+                                $<xsl:value-of select="price" />
                             </xsl:otherwise>
 
                         </xsl:choose>
