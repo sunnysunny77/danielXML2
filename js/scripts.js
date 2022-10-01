@@ -22,7 +22,6 @@ function displayResult(source, styledoc) {
 
     'use strict';
 
-
     const xml = loadXMLDoc(source);
     const xsl = loadXMLDoc(styledoc);
     const response = document.getElementById("response");
@@ -36,7 +35,7 @@ function displayResult(source, styledoc) {
     // code for Mozilla, Firefox, Opera, etc.
     else if (document.implementation && document.implementation.createDocument) {
         
-        let xsltProcessor = new XSLTProcessor();
+        const xsltProcessor = new XSLTProcessor();
         xsltProcessor.importStylesheet(xsl);
 
         const resultDocument = xsltProcessor.transformToFragment(xml, document);
