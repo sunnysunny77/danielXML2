@@ -160,6 +160,14 @@ nav ul li a:focus {
     color: gold;
 }
 
+.blue {
+    color: blue;
+}
+
+.green {
+    color: green;
+}
+
 /* Breaks */
 @media only Screen and (max-width: 993px) {
 

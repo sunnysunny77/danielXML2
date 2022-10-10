@@ -76,13 +76,13 @@
                         <xsl:choose>
 
                             <xsl:when test="price &gt; 10">
-                                <span style="color: green;">
+                                <span class="green">
                                     $<xsl:value-of select="price" />
                                 </span>
                             </xsl:when>
 
                             <xsl:when test="price &gt; 9">
-                                <span style="color: blue;">
+                                <span class="blue">
                                     $<xsl:value-of select="price" />
                                 </span>
                             </xsl:when>
