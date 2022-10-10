@@ -8,6 +8,22 @@
 
         <html>
 
+            <head>
+
+                <style>
+
+                    .blue {
+                        color: blue;
+                    }
+                    
+                    .green {
+                        color: green;
+                    }
+
+                </style>
+
+            </head>
+
             <body>
 
                 <ul>
