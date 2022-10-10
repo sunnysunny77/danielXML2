@@ -6,109 +6,124 @@
 
     <xsl:template match="/">
 
-        <xsl:for-each select="studioone/stocksong">
+        <html>
 
-            <li>
+            <body>
 
                 <ul>
 
-                    <li>
+                    <xsl:for-each select="studioone/stocksong">
 
-                        <a target="_blank" href="./images/holder.jpg">
-                            <img src="./images/holder.jpg" alt="image{position()}" />
-                        </a>
+                        <li>
 
-                    </li>
+                            <ul>
 
-                    <li>
+                                <li>
 
-                        <b>Album:</b>
-                        &#160;
-                        <xsl:value-of select="album" />
+                                    <a target="_blank" href="./images/holder.jpg">
+                                        <img src="./images/holder.jpg" alt="image{position()}" />
+                                    </a>
 
-                    </li>
+                                </li>
 
-                    <li>
+                                <li>
 
-                        <b>Artist:</b>
-                        &#160;
-                        <xsl:value-of select="artist" />
+                                    <b>Album:</b>
+                                    &#160;
+                                    <xsl:value-of select="album" />
 
-                    </li>
+                                </li>
 
-                    <li>
+                                <li>
 
-                        <b>Country:</b>
-                        &#160;
-                        <xsl:value-of select="country" />
+                                    <b>Artist:</b>
+                                    &#160;
+                                    <xsl:value-of select="artist" />
 
-                    </li>
+                                </li>
 
-                    <li>
+                                <li>
 
-                        <b>Company:</b>
-                        &#160;
-                        <xsl:value-of select="company" />
+                                    <b>Country:</b>
+                                    &#160;
+                                    <xsl:value-of select="country" />
 
-                    </li>
+                                </li>
 
-                    <li>
+                                <li>
 
-                        <b>Song:</b>
-                        &#160;
-                        <xsl:value-of select="song" />
+                                    <b>Company:</b>
+                                    &#160;
+                                    <xsl:value-of select="company" />
 
-                    </li>
+                                </li>
 
-                    <li>
+                                <li>
 
-                        <b>Media:</b>
-                        &#160;
-                        <xsl:value-of select="media" />
+                                    <b>Song:</b>
+                                    &#160;
+                                    <xsl:value-of select="song" />
 
-                    </li>
+                                </li>
+
+                                <li>
+
+                                    <b>Media:</b>
+                                    &#160;
+                                    <xsl:value-of select="media" />
+
+                                </li>
 
 
-                    <li>
+                                <li>
 
-                        <b>Price:</b>
-                        &#160;
-                        <xsl:choose>
+                                    <b>Price:</b>
+                                    &#160;
+                                    <xsl:choose>
 
-                            <xsl:when test="price &gt; 10">
-                                <span class="green">
-                                    $<xsl:value-of select="price" />
-                                </span>
-                            </xsl:when>
+                                        <xsl:when test="price &gt; 10">
+                                            <span class="green">
+                                                $
+                                                <xsl:value-of select="price" />
+                                            </span>
+                                        </xsl:when>
 
-                            <xsl:when test="price &gt; 9">
-                                <span class="blue">
-                                    $<xsl:value-of select="price" />
-                                </span>
-                            </xsl:when>
+                                        <xsl:when test="price &gt; 9">
+                                            <span class="blue">
+                                                $
+                                                <xsl:value-of select="price" />
+                                            </span>
+                                        </xsl:when>
 
-                            <xsl:otherwise>
-                                $<xsl:value-of select="price" />
-                            </xsl:otherwise>
+                                        <xsl:otherwise>
+                                            $
+                                            <xsl:value-of select="price" />
+                                        </xsl:otherwise>
 
-                        </xsl:choose>
+                                    </xsl:choose>
 
-                    </li>
+                                </li>
 
-                    <li>
+                                <li>
 
-                        <b>Year:</b>
-                        &#160;
-                        <xsl:value-of select="year" />
+                                    <b>Year:</b>
+                                    &#160;
+                                    <xsl:value-of select="year" />
 
-                    </li>
+                                </li>
 
+
+                            </ul>
+
+                        </li>
+
+                    </xsl:for-each>
 
                 </ul>
 
-            </li>
+            </body>
 
-        </xsl:for-each>
+        </html>
 
     </xsl:template>
 
