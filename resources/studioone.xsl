@@ -8,13 +8,9 @@
 
         <html>
 
-            <head>
+            <body>
 
                 <link href="resources/studioone.css" rel="stylesheet" type="text/css"/>
-
-            </head>
-
-            <body>
 
                 <ul>
 
