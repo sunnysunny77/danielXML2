@@ -10,17 +10,7 @@
 
             <head>
 
-                <style>
-
-                    .blue {
-                        color: blue;
-                    }
-                    
-                    .green {
-                        color: green;
-                    }
-
-                </style>
+                <link href="resources/studioone.css" rel="stylesheet" type="text/css"/>
 
             </head>
 
